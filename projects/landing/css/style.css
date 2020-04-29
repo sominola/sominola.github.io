@@ -71,7 +71,6 @@ html {
   text-decoration: none;
 }
 
-
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
@@ -237,7 +236,6 @@ html {
   margin: 0 auto;
 }
 
-
 .details__text h1 {
   color: #464646;
   font-family: "Open Sans";
@@ -287,27 +285,26 @@ html {
 
 .featured__photo {
   display: flex;
-  background-color: chocolate;
   height: 320px;
 }
 
 .whiskey {
   width: 40%;
-  background-image: url(/img/whiskey.png);
+  background-image: url("https://i.imgur.com/g8QzY8v.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vintage {
   width: 30%;
-  background-image: url(/img/label.png);
+  background-image: url(https://i.imgur.com/8DWaWUF.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .booker {
   width: 30%;
-  background-image: url(/img/books.png);
+  background-image: url(https://i.imgur.com/FlMbxKg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -322,7 +319,7 @@ html {
   line-height: 320px;
   text-align: center;
   color: #fff;
-  animation: fade .1s linear forwards;
+  animation: fade 0.1s linear forwards;
 }
 
 @keyframes fade {
@@ -339,7 +336,6 @@ html {
   display: block;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
-
 }
 
 .vintage:hover .whiskey__p {
@@ -396,7 +392,6 @@ html {
   opacity: 80%;
 }
 
-.service {}
 
 .service__content {
   margin: 81px auto 137px;
@@ -442,7 +437,6 @@ html {
   padding: 13px;
   border-radius: 35%;
   background-color: #81868e;
-
 }
 
 .valik {
@@ -450,7 +444,6 @@ html {
   padding: 14px 15px 11px 14px;
   border-radius: 35%;
   background-color: #81868e;
-
 }
 
 .gamepad {
@@ -458,7 +451,6 @@ html {
   padding: 10px 12px 17px 13px;
   border-radius: 35%;
   background-color: #81868e;
-
 }
 
 .outlet {
@@ -538,7 +530,6 @@ html {
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 1.25px;
-
 }
 
 .item__circle p span {

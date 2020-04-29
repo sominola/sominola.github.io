@@ -190,11 +190,31 @@ a:focus {
         -o-transform: rotate(-2deg);
     }
 }
+.intro .intro-body .brand-heading {
+    font-size: 60px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+
+.intro .intro-body .intro-text {
+    font-size: 25px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
 .link-social {
     font-size: 27px;
     text-decoration: none;
     color: white;
     margin-right: 33px;
+  }
+  .link-social:first-child{
+    margin-left:60px;
   }
   .link-social:last-child {
     margin-right: 0;

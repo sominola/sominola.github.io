@@ -1,0 +1,225 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #263238;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #A2CBF4;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,a:focus {
+    text-decoration: none;
+    color: #C4CCD5;
+}
+
+
+.navbar-custom {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    
+}
+
+.intro{    
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    display: table;
+    min-height: 100vh;
+    width: 100%;
+}
+.video-wrapper{
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .brand-heading{
+        margin-top: 100px;
+
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+        transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+        transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+    }
+}
+.intro .intro-body .brand-heading {
+    font-size: 60px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+
+.intro .intro-body .intro-text {
+    font-size: 25px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+.link-social {
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    margin-right: 33px;
+  }
+  .link-social:first-child{
+    margin-left:60px;
+  }
+  .link-social:last-child {
+    margin-right: 0;
+  }
+  .link-social:hover {
+    opacity: 0.8;
+  }
+.blocker{
+    height: 100vh;
+    width: 100%;
+}
+.text {
+    text-align: center;
+    transform: translateY(-50%);
+    font-family: 'Oswald', sans-serif;
+    line-height: 60px;
+}
+.text span {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 5px;
+    transition: 2s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    cursor: default;
+}
+.text span:hover {
+    transition: 0.3s;
+    top: -8px;
+    left: 8px;
+}
+.text span.space {
+    width: 20px;
+    height: 100%;
+}
+/* 1111 */

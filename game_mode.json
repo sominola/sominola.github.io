@@ -1,4 +1,5 @@
-[{
+{ "Modes":[
+    {
     "id": 0,
     "name": "Unknown",
     "balanced": true
@@ -107,10 +108,8 @@
   {
     "id": 24,
     "name": "Mutation"
-  }]
-
-{
-    "heroes": [
+  }],
+  "heroes":[
         {
             "name": "antimage",
             "id": 1,
@@ -126,7 +125,7 @@
             "id": 3,
             "localized_name": "Bane"
         },
-        {
+       {
             "name": "bloodseeker",
             "id": 4,
             "localized_name": "Bloodseeker"
@@ -671,5 +670,6 @@
             "id": 113,
             "localized_name": "Arc Warden"
         }
-    ]
+  ]
+    
 }

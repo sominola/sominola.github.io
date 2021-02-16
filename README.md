@@ -1,2 +1,0 @@
-# sominola.github.io
-sominola
